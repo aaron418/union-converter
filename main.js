@@ -21,7 +21,7 @@ function convert() {
 
         switch(unitValue) {
             case "lbs":
-                convertLbs();
+                convertLbs(value);
                 break;
             case "grams":
                 convertGrams(value)
